@@ -1,0 +1,215 @@
+﻿<!DOCTYPE html>
+<html>
+<!-- LEA HAR LAVET DEN HER SIDE -->
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/scandinized-logo.png"></a>
+
+            <div class="nav-links" id="navLinks">
+                <ion-icon name="menu-outline" class="menu-mobil" onclick="hideMenu()"></ion-icon>
+                <ul>
+                    <li><a href="">Forside </a></li>
+                    <li><a href="">Om os</a></li>
+                    <li><a href="">Om produktet</a></li>
+                    <li><a href="">Fordelene</a></li>
+                    <li><a href="">Bæredygtighed</a></li>
+
+                </ul>
+            </div>
+            <ion-icon name="menu-outline" class="menu-mobil" onclick="showMenu()"></ion-icon>
+        </nav>
+    </section>
+
+    <div class="container">
+        <!-- øverste 2 bokse -->
+        <section class="top-boxes">
+            <div class="row">
+                <div class="about-col">
+                    <h1 id="forside-overskrift">Bliv en del af universet og vind et kassesæt!</h1>
+                    <p>Lige nu kan du tilmelde dig vores konkurence og vinde et kassesæt, det eneste du skal gøre er at tilmelde dig vores nyhedsbrev.</p>
+                    <p id="fordelene">
+                      
+                    </p>
+                    <a href="" class="hero-btn red-btn">Tilmeld nyhedsbrev</a>
+                </div>
+                <div class="about-col">
+                    <img src="images/hvorfor.jpg">
+                </div>
+            </div>
+
+        </section>
+        <div class="punkter">
+            <p id="overskrift"></p>
+            <p id="punkt-tekst">
+               
+            </p>
+            <p id="overskrift"</p>
+            <p id="punkt-tekst">
+               
+            </p>
+            <p id="overskrift"></p>
+            <p id="punkt-tekst">
+               
+            </p>
+        </div>
+        <section class="top-boxes">
+            <div class="row2">
+                <div class="about2-col">
+                    <img src="images/fordelene2.jpg">
+                    <!--  <a href="" class="hero-btn red-btn">indsæt tekst</a> -->
+                </div>
+                <div class="about2-col" id="right-image">
+                    <h2>
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        Hvorfor os?
+                    </h2>
+                    <p> <br />
+                    
+                    Vi syntes du skal vælge vores kasser! <br />
+                    De er helt organiske! <br />
+                    Så ved at købe disse kasser støtter du vores miljø!
+                    <br /> 
+                    </p>
+                    
+                </div>
+            </div>
+
+        </section>
+    </div>
+<section class="knapperne">
+    <div class="række">
+        <div class=" knapper">
+            <h3>
+                <br />
+                <br />
+               
+
+                Om os
+                <br />
+                <br />
+            </h3>
+            <p></p>
+        </div>
+        <div class=" knapper">
+            <h3>
+                <br />
+                <br />
+
+
+                Om Produktet
+                <br />
+                <br />
+            </h3>
+            <p></p>
+        </div>
+        <div class=" knapper">
+            <h3>
+                <br />
+                <br />
+
+
+                Fordelene
+                <br />
+                <br />
+            </h3>
+            <p></p>
+        </div>
+        <div class=" knapper">
+            <h3>
+                <br />
+                <br />
+
+
+                Bæredygtighed
+                <br />
+                <br />
+            </h3>
+            <p> </p>
+        </div>
+    </div>
+    </section>
+ 
+
+            <!------JavaScript for Toggle Menu----->
+
+            <script>
+                var navLinks = document.getElementById("navLinks");
+
+                function showMenu() {
+                    navLinks.style.right = "0";
+                    /* navLinks.style.display = "block"; */
+                }
+
+                function hideMenu() {
+                    navLinks.style.right = "-200px";
+                    /*navLinks.style.display = "none"; */
+                }
+            </script>
+
+            <!-- footer starter -->
+            <footer>
+                <div class="container-footer">
+                    <div class="om">
+                        <p id="footer-header">Scandinized</p>
+                        <p id="footertext">Bæredygtigt og rent skandinavisk <br> design til alle hjem</p>
+                        <p id="footertext">Københavnsgade 16</p>
+                        <p id="footertext">2130 København K</p>
+                        <p id="footertext">+ 45 32 45 54 33</p>
+                    </div>
+                    <div class="vide-mere">
+                        <p id="footer-header" ">Om os</p>
+                        <p id=" footertext">FAQ</p>
+                        <p id="footertext">Kontakt os</p>
+                        <p id="footertext">Handelsbetingelser</p>
+                        <p id="footertext">Privatlivssikkerhed</p>
+                        <p id="footertext">Min Konto</p>
+                    </div>
+                    <div class="kategorier">
+                        <p id="footer-header">Kategorier</p>
+                        <p id="footertext">Badeværelse</p>
+                        <p id="footertext">Køkken</p>
+                        <p id="footertext">Stue</p>
+                        <p id="footertext">Kontor</p>
+                        <p id="footertext">Entré </p>
+                    </div>
+                    <div class="Some">
+                        <p id="footer-header">Følg os her</p>
+                        <a href="#">
+                            <ion-icon name="logo-pinterest"></ion-icon>
+                        </a>
+                        <a href="#">
+                            <ion-icon name="logo-tiktok"></ion-icon>
+                        </a>
+                        <br>
+                        <a href="#">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                        <a href="#">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </div>
+                </div>
+            </footer>
+            <!-- footer slutter-->
+</body>
+
+</html>
